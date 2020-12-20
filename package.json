@@ -1,0 +1,23 @@
+{
+  "name": "apache-pulsar-websockets-example",
+  "version": "1.0.0",
+  "description": "A minimal example of running Apache Pulsar with websockets server and client side (in a browser)",
+  "main": "consumer.js",
+  "dependencies": {
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yngvark/apache-pulsar-websockets-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yngvark/apache-pulsar-websockets-example/issues"
+  },
+  "homepage": "https://github.com/yngvark/apache-pulsar-websockets-example#readme"
+}
