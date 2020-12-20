@@ -17,7 +17,7 @@ npm install
 node producer.js
 ```
 
-## 3. Run a consumer in a Browser
+## 3. Run a consumer in a browser
 
 Open your favourite browser's console, and paste in the following Javascript:
 
@@ -34,7 +34,7 @@ websocket.onopen = (event) => {
 websocket.onmessage = (event) => {
     j = JSON.parse(event.data)
     console.log("Received message", j)
-    console.log("MESSAGE: ", atob(j.payload))
+    console.log("Payload: ", atob(j.payload)) // Base64 decode
 }
 
 // websocket.close()
